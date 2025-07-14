@@ -220,7 +220,7 @@ watch(
           <button class="btn btn-primary" @click="performSearch">Search</button>
           <button class="btn btn-error" @click="clearSearch">Clear</button>
         </div>
-        <div class="flex flex-wrap gap-3">
+        <div class="flex flex-wrap gap-3 justify-center">
           <button class="badge badge-info hover:badge cursor-pointer" :class="showFavorites ? '' : 'badge-outline'"
             @click="showOnlyFavorites">Favorites</button>
           <button class="badge badge-accent hover:badge-soft cursor-pointer"
